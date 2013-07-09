@@ -1,0 +1,5 @@
+<h2>Here are the recent tweets for <%= @username %></h2>
+  
+  <% @current_tweets.each do |tweet| %>
+    <p><%= tweet.tweet_content %></p>
+  <% end %>
